@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "title": {
+            "text": "Bonsai Trees",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Allows players to farm tree loot tables with a mine Bonsai tree.",
+            "color": "green",
+            "bold": false
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "shroototems_advancement:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
