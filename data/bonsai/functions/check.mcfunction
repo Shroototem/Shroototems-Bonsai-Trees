@@ -1,0 +1,9 @@
+execute if entity @s[nbt={ItemRotation:7b}] run function bonsai:checked
+execute if entity @s[nbt={ItemRotation:7b}] run data modify entity @s ItemRotation set value 0b
+execute if entity @s[nbt={ItemRotation:6b}] run data modify entity @s ItemRotation set value 7b
+execute if entity @s[nbt={ItemRotation:5b}] run data modify entity @s ItemRotation set value 6b
+execute if entity @s[nbt={ItemRotation:4b}] run data modify entity @s ItemRotation set value 5b
+execute if entity @s[nbt={ItemRotation:3b}] run data modify entity @s ItemRotation set value 4b
+execute if entity @s[nbt={ItemRotation:2b}] run data modify entity @s ItemRotation set value 3b
+execute if entity @s[nbt={ItemRotation:1b}] run data modify entity @s ItemRotation set value 2b
+execute if entity @s[nbt={ItemRotation:0b}] run data modify entity @s ItemRotation set value 1b
